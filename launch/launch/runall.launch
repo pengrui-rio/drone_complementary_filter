@@ -1,0 +1,18 @@
+<launch>
+
+	
+	<node pkg="agstF" type ="agstF_node" name="agstF" output="screen"/>
+
+	<node pkg="ekF" type ="ekF_node" name="ekF" output="screen"/>
+
+	<node pkg="eskF" type ="eskF_node" name="eskF" output="screen"/>
+
+	<node pkg="mahF" type ="mahF_node" name="mahF" output="screen"/>
+
+	<node pkg="groundtruth" type ="gt_node" name="groundtruth" output="screen"/>
+
+	<node pkg="main" type ="main_node" name="main" output="screen"/>
+
+
+</launch>
+

@@ -1,0 +1,12 @@
+<launch>
+	<param name = "/command/x" value = "1.0"/>
+	<param name = "/command/y" value = "1.0"/>
+	<param name = "/command/z" value = "1.5"/>
+	<param name = "/command/period" value = "15"/>
+	
+	<!-- include file="$(find vicon_bridge)/launch/vicon.launch"/> -->
+	<include file="$(find mavros)/launch/FJ005.launch"/>
+	
+	<node pkg="waypoint_tracking" type ="fixed_waypoint" name="fixed_waypoint" output="screen"/>
+</launch>
+

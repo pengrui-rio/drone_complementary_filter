@@ -3,4 +3,6 @@
 https://ieeexplore.ieee.org/document/9476796
 
 
-Fast Adaptive Complementary Filter for Quadrotor Attitude Estimation During Aggressive Maneuvers (ICUAS2021)
+R. Peng and P. Lu, "Fast Adaptive Complementary Filter for Quadrotor Attitude Estimation During Aggressive Maneuvers," 2021 International Conference on Unmanned Aircraft Systems (ICUAS), 2021, pp. 182-187, doi: 10.1109/ICUAS51884.2021.9476796.
+
+
